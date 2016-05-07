@@ -1,12 +1,12 @@
 public class Person {
-    int id;
+    String id;
     String firstName;
     String lastName;
     String email;
     String country;
     String ipAddress;
 
-    public Person(int id, String firstName, String lastName, String email, String country, String ipAddress) {
+    public Person(String id, String firstName, String lastName, String email, String country, String ipAddress) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -15,11 +15,11 @@ public class Person {
         this.ipAddress = ipAddress;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -61,5 +61,13 @@ public class Person {
 
     public void setIpAddress(String ipAddress) {
         this.ipAddress = ipAddress;
+    }
+
+    public String toString(){
+        return "id: " + this.id +
+                ", name: " + this.firstName + this.lastName +
+                ", email: " + this.email +
+                ", country: " + this.country +
+                ", IP: " + this.ipAddress + "\n";
     }
 }

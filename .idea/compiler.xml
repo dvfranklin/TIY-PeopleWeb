@@ -26,7 +26,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="TIY-PeopleWeb" target="1.5" />
+      <module name="TIY-PeopleWeb" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
