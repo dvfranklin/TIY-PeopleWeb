@@ -6,6 +6,14 @@ public class Person {
     String country;
     String ipAddress;
 
+    public Person(String firstName, String lastName, String email, String country, String ipAddress) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+        this.country = country;
+        this.ipAddress = ipAddress;
+    }
+
     public Person(int id, String firstName, String lastName, String email, String country, String ipAddress) {
         this.id = id;
         this.firstName = firstName;

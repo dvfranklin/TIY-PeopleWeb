@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="H2 - main@192.168.1.141" uuid="63e6fe52-0f5b-42d3-87af-93cc7fe3543c">
+      <secret-storage>master_key</secret-storage>
+      <schema-pattern>MAIN&amp;nbsp;.PUBLIC</schema-pattern>
+      <default-schemas>MAIN&amp;nbsp;.PUBLIC</default-schemas>
+    </data-source>
+  </component>
+</project>
